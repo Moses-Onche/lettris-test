@@ -3,11 +3,11 @@ const right = document.getElementById("right");
 const down = document.getElementById("down");
 const rotate = document.getElementById("rotate");
 
-left.addEventListener("click", () => {
+left.addEventListener("pointerdown", () => {
     left.style.backgroundImage = 'url("./assets/left-1.png")';
 })
 
-left.addEventListener("mouseup", () => {
+left.addEventListener("pointerup", () => {
     left.style.backgroundImage = 'url("./assets/left-0.png")';
 })
 
