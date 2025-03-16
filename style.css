@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    margin: 2%;
+    margin: 20px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -10,11 +14,11 @@ body {
     height: 90vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
 }
 
 .heading {
-    width: 100%;
+    width: 85%;
     height: 10%;
     border: solid 2px white;
 }
@@ -22,17 +26,25 @@ body {
 .mid {
     width: 100%;
     height: 90%;
-    border: solid 2px white;
+    display: flex;
+    align-items: center;
+    /* border: solid 2px white; */
 }
 
 .screen {
-    width: 80%;
+    width: 85%;
     height: 100%;
     border: solid 2px white;
 }
 
+.scores {
+    width: 15%;
+    height: 70%;
+    border: solid white 2px;
+}
+
 .buttons {
-    width: 100%;
+    width: 85%;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -84,6 +96,6 @@ body {
 
 @media only screen and (max-width: 600px) {
     .main {
-        width: 80%;
+        width: 70%;
     }
 }
