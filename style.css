@@ -27,9 +27,6 @@ body {
 .mid {
     width: 85%;
     height: 90%;
-    /* display: flex;
-    align-items: center; */
-    /* border: solid 2px white; */
 }
 
 .screen {
@@ -51,7 +48,6 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 10%;
-    /* border: solid 1px white; */
 }
 
 .button {
@@ -76,27 +72,18 @@ body {
     height: 50px;
     margin-left: 10px;
     background-image: url("./assets/right-0.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 #down {
     width: 30px;
     height: 30px;
     background-image: url("./assets/down-0.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 #rotate {
     width: 70px;
     height: 70px;
     background-image: url("./assets/rotate-0.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 600px) {
