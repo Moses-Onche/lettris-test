@@ -54,9 +54,10 @@ body {
     /* border: solid 1px white; */
 }
 
-.d-button {
-    width: 50px;
-    height: 50px;
+.button {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .direction {
@@ -65,13 +66,14 @@ body {
 }
 
 #left {
+    width: 50px;
+    height: 50px;
     background-image: url("./assets/left-0.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 #right {
+    width: 50px;
+    height: 50px;
     margin-left: 10px;
     background-image: url("./assets/right-0.png");
     background-position: center;
@@ -79,7 +81,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.down {
+#down {
     width: 30px;
     height: 30px;
     background-image: url("./assets/down-0.png");
@@ -88,7 +90,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.rotate {
+#rotate {
     width: 70px;
     height: 70px;
     background-image: url("./assets/rotate-0.png");

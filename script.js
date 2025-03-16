@@ -4,7 +4,7 @@ const down = document.getElementById("down");
 const rotate = document.getElementById("rotate");
 
 left.addEventListener("pointerdown", () => {
-    left.style.backgroundImage = 'url("./assets/left-1.png")';
+    left.style.backgroundImage = 'url("./assets/left-11.png")';
 })
 
 left.addEventListener("pointerup", () => {
@@ -12,7 +12,7 @@ left.addEventListener("pointerup", () => {
 })
 
 right.addEventListener("pointerdown", () => {
-    right.style.backgroundImage = 'url("./assets/right-1.png")';
+    right.style.backgroundImage = 'url("./assets/right-11.png")';
 })
 
 right.addEventListener("pointerup", () => {
@@ -20,7 +20,7 @@ right.addEventListener("pointerup", () => {
 })
 
 down.addEventListener("pointerdown", () => {
-    down.style.backgroundImage = 'url("./assets/down-1.png")';
+    down.style.backgroundImage = 'url("./assets/down-11.png")';
 })
 
 down.addEventListener("pointerup", () => {
@@ -28,7 +28,7 @@ down.addEventListener("pointerup", () => {
 })
 
 rotate.addEventListener("pointerdown", () => {
-    rotate.style.backgroundImage = 'url("./assets/rotate-1.png")';
+    rotate.style.backgroundImage = 'url("./assets/rotate-11.png")';
 })
 
 rotate.addEventListener("pointerup", () => {
