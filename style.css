@@ -7,11 +7,11 @@ body {
     background-color: black;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .main {
-    width: 22%;
+    width: 25%;
     height: 85vh;
     display: flex;
     flex-direction: column;
@@ -55,8 +55,8 @@ body {
 }
 
 .d-button {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 .direction {
@@ -68,31 +68,33 @@ body {
     background-image: url("./assets/left-0.png");
     background-position: center;
     background-size: contain;
-    
+    background-repeat: no-repeat;
 }
 
 #right {
-    margin-left: 20px;
+    margin-left: 10px;
     background-image: url("./assets/right-0.png");
     background-position: center;
     background-size: contain;
-    
+    background-repeat: no-repeat;
 }
 
 .down {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-image: url("./assets/down-0.png");
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .rotate {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background-image: url("./assets/rotate-0.png");
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 600px) {
