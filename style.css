@@ -1,0 +1,89 @@
+body {
+    margin: 2%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 22%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    width: 100%;
+    height: 10%;
+    border: solid 2px white;
+}
+
+.mid {
+    width: 100%;
+    height: 90%;
+    border: solid 2px white;
+}
+
+.screen {
+    width: 80%;
+    height: 100%;
+    border: solid 2px white;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    border: solid 1px white;
+}
+
+.d-button {
+    width: 50px;
+    height: 50px;
+}
+
+.direction {
+    display: flex;
+    /* width: 25%; */
+}
+
+#left {
+    background-image: url("./assets/left-0.png");
+    background-position: center;
+    background-size: contain;
+    
+}
+
+#right {
+    margin-left: 20px;
+    background-image: url("./assets/right-0.png");
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.down {
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets/down-0.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.rotate {
+    width: 70px;
+    height: 70px;
+    background-image: url("./assets/rotate-0.png");
+    background-position: center;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 80%;
+    }
+}
